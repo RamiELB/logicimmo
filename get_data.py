@@ -18,8 +18,9 @@ dict_ville = {
     'lille' : '193',
     'rennes' : '294',
     'grenoble' : '144',
-    'bordeaux' : '44',
-    'nantes' : '240'
+    'caen' : '56',
+    'nantes' : '240',
+    'cannes' : '59'
 }
 
 def make_url(ville, locaouvente):
@@ -64,7 +65,7 @@ def one_page(url, res):
             })
 
 def main():
-    print('Villes disponibles : rouen, montpellier, amiens, angers, orleans, lille, rennes, grenoble, bordeaux, nantes')
+    print('Villes disponibles : rouen, cannes, montpellier, amiens, angers, orleans, lille, rennes, grenoble, caen, nantes')
     ville = input('Merci de donner une ville dans la liste\n')
     locaouvente = input('Voir les prix de vente ou de location? (écrire location ou vente)\n')
     url = make_url(ville, locaouvente)
