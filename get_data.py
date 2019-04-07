@@ -68,7 +68,7 @@ def one_page(url, res):
             })
 
 def main():
-    print('Villes disponibles : rouen, cannes, montpellier, amiens, angers, orleans, lille, rennes, grenoble, caen, nantes, saint-etienne, clermont-ferrand'')
+    print('Villes disponibles : rouen, cannes, montpellier, amiens, angers, orleans, lille, rennes, grenoble, caen, nantes, saint-etienne, clermont-ferrand')
     ville = input('Merci de donner une ville dans la liste\n')
     locaouvente = input('Voir les prix de vente ou de location? (écrire location ou vente)\n')
     url = make_url(ville, locaouvente)
