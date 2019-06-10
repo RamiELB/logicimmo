@@ -20,7 +20,7 @@ dict_ville = {
     'grenoble' : '144',
     'nantes' : '240',
     'saint-etienne' : '319',
-    'clermont-ferrand' : '91'
+    'clermont-ferrand' : '91',
     'caen' : '56',
     'nantes' : '240',
     'cannes' : '59'
